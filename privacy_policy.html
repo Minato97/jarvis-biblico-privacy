@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — Jarvis Bíblico</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 24px;
+      color: #222;
+      line-height: 1.75;
+    }
+    h1 { font-size: 1.8rem; color: #3b2a6e; }
+    h2 { font-size: 1.2rem; color: #3b2a6e; margin-top: 2rem; }
+    p  { margin: 0.6rem 0; }
+    footer { margin-top: 3rem; font-size: 0.85rem; color: #666; }
+  </style>
+</head>
+<body>
+
+<h1>Política de Privacidad — Jarvis Bíblico</h1>
+<p><em>Última actualización: mayo de 2026</em></p>
+
+<p>
+  Jarvis Bíblico es una aplicación de consejería espiritual basada en la Biblia.
+  Esta política explica qué información maneja la aplicación y cómo la protege.
+</p>
+
+<h2>1. Información que la app NO recopila</h2>
+<p>
+  Jarvis Bíblico <strong>no recopila, almacena ni transmite</strong> ningún dato
+  personal a servidores externos. Específicamente:
+</p>
+<ul>
+  <li>No se guardan tus mensajes de chat ni el historial de conversaciones en ningún servidor.</li>
+  <li>No se crea ninguna cuenta de usuario ni se pide información de identificación.</li>
+  <li>No se comparten datos con terceros, anunciantes ni servicios de análisis.</li>
+</ul>
+
+<h2>2. Uso del micrófono</h2>
+<p>
+  La aplicación solicita el permiso <strong>RECORD_AUDIO</strong> (acceso al micrófono)
+  únicamente para permitir que puedas hablarle a Jarvis en lugar de escribir.
+  El audio es procesado localmente en tu dispositivo mediante el reconocimiento de voz
+  integrado de Android (<em>SpeechRecognizer</em>). En ningún momento el audio es
+  enviado a los servidores de Jarvis Bíblico.
+</p>
+<p>
+  El micrófono se activa <strong>solo cuando tú presionas el botón de voz</strong>
+  y se desactiva inmediatamente después de que terminas de hablar.
+</p>
+
+<h2>3. Uso de internet</h2>
+<p>
+  La app puede usar la conexión a internet para:
+</p>
+<ul>
+  <li>Descargar el modelo de inteligencia artificial (MiniLM) la primera vez que lo activas — directamente desde el repositorio oficial de Hugging Face.</li>
+  <li>Usar voces de texto a voz que requieran red (dependiendo de las voces instaladas en tu dispositivo Android).</li>
+</ul>
+<p>
+  En todos los casos, la comunicación es hacia servicios de sistema de Android o
+  repositorios públicos. No existe ningún servidor propio de Jarvis Bíblico que
+  reciba o almacene información tuya.
+</p>
+
+<h2>4. Datos almacenados en el dispositivo</h2>
+<p>
+  La app guarda localmente en tu dispositivo:
+</p>
+<ul>
+  <li>La preferencia de voz TTS seleccionada (SharedPreferences).</li>
+  <li>El modelo de IA descargado (archivo .onnx) en el almacenamiento interno de la app.</li>
+  <li>La base de datos bíblica incluida en la app (SQLite, solo lectura).</li>
+</ul>
+<p>
+  Estos datos permanecen en tu dispositivo y se eliminan al desinstalar la app.
+</p>
+
+<h2>5. Servicios de terceros</h2>
+<p>
+  Jarvis Bíblico no integra SDKs de publicidad, análisis (analytics), rastreo
+  ni redes sociales. Los únicos servicios del sistema Android que utiliza son:
+  TextToSpeech, SpeechRecognizer, y el motor ONNX Runtime de Microsoft (ejecutado
+  completamente offline en tu dispositivo).
+</p>
+
+<h2>6. Privacidad de menores</h2>
+<p>
+  Jarvis Bíblico no está dirigida a menores de 13 años. No recopilamos
+  conscientemente información de menores de edad.
+</p>
+
+<h2>7. Cambios a esta política</h2>
+<p>
+  Si realizamos cambios importantes a esta política, actualizaremos la fecha
+  en la parte superior de esta página. Te recomendamos revisarla ocasionalmente.
+</p>
+
+<h2>8. Contacto</h2>
+<p>
+  Si tienes preguntas sobre esta política de privacidad, puedes escribirnos a:<br />
+  <strong>ignacio.andrade2285@alumnos.udg.mx</strong>
+</p>
+
+<footer>
+  © 2026 Jarvis Bíblico. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
